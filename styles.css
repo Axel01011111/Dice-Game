@@ -21,14 +21,32 @@ h1 {
   color: #4ECCA3;
 }
 
+@media (max-width: 400px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
 p {
   font-size: 2rem;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
 }
 
+@media (max-width: 400px) {
+  p {
+    font-size: 1.5rem;
+  }
+}
+
 img {
   width: 80%;
+}
+
+@media (max-width: 400px) {
+  img {
+    width: 50%;
+  }
 }
 
 footer {
@@ -36,10 +54,9 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
-
 }
 
-.btn{
+.btn {
   background-color: #8cba51;
   border: none;
   border-radius: 15%;
