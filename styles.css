@@ -64,10 +64,12 @@ img {
 }
 
 footer {
-  margin-top: 5%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
+  position:absolute;
+  width:100%;
+  bottom:0px;
 }
 
 .btn {
@@ -81,3 +83,4 @@ footer {
   display: inline-block;
   font-size: 16px;
 }
+
