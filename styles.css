@@ -4,6 +4,16 @@
   text-align: center;
 }
 
+@media (max-width: 400px){
+  .container{
+    overflow: hidden;
+  }
+  .inner{
+    overflow: hidden;
+    width: 100%;
+  }
+}
+
 .dice {
   text-align: center;
   display: inline-block;
@@ -45,6 +55,10 @@ img {
 
 @media (max-width: 400px) {
   img {
+    width: 40%;
+  }
+  .dice{
+    float: left;
     width: 50%;
   }
 }
